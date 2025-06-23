@@ -9,8 +9,6 @@ export default function Team() {
 
       {/* Container for profiles */}
       <div className="flex flex-wrap justify-center w-full gap-14 mb-8">
-        
-        {/* First row - 3 profiles */}
         <div className="flex flex-wrap justify-center w-full gap-8 ">
           {/* Profile 1 - Col. Prem Rajpurohit */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
@@ -26,8 +24,6 @@ export default function Team() {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
               />
-
-              {/* LinkedIn Logo and Hover Effects */}
               <a href="https://www.linkedin.com/in/col-prem-rajpurohit-pmp-lssbb-mba-b04585192/" target="_blank" rel="noopener noreferrer">
                 <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
                   <span className="text-white text-sm text-center hidden group-hover:block">
@@ -43,7 +39,7 @@ export default function Team() {
             <p className="text-gray-500 text-center">Founder @GSL</p>
           </div>
 
-          {/* Profile 2 */}
+          {/* Profile 2 - Pravash Dey */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
             <motion.div
               className="relative w-52 h-52 md:w-72 md:h-72 mb-4 overflow-hidden"
@@ -57,12 +53,11 @@ export default function Team() {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
               />
-
-              {/* LinkedIn Logo and Hover Effects */}
               <a href="https://www.linkedin.com/in/consultingleaders/" target="_blank" rel="noopener noreferrer">
                 <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
                   <span className="text-white text-sm text-center hidden group-hover:block">
-                  Led formation of the USIndia Blockchain Council and UKIndia Blockchain Council, a consortium of entrepreneurs, innovators, academia researchers, investors, financial institutions and trade & investment organisations. Currently I am also building multimillion dollar worth Blockchain as a Service (BaaS) - Fintech, DefTech & MediaTech Network for Content Distribution.                  </span>
+                  Led formation of the USIndia Blockchain Council and UKIndia Blockchain Council, a consortium of entrepreneurs, innovators, academia researchers, investors, financial institutions and trade & investment organisations. Currently I am also building multimillion dollar worth Blockchain as a Service (BaaS) - Fintech, DefTech & MediaTech Network for Content Distribution.
+                  </span>
                 </motion.div>
                 <motion.div className="absolute bottom-0 right-0 bg-[#007F40] p-2 rounded-tr-2xl rounded-bl-2xl group-hover:scale-0 transition-all duration-500 ease-in-out">
                   <FaLinkedin className="w-6 h-6 text-white" />
@@ -73,7 +68,7 @@ export default function Team() {
             <p className="text-gray-500 text-center">Curator At US India Blockchain Council</p>
           </div>
 
-          {/* Profile 3 */}
+          {/* Profile 3 - Navdeep Chobhiyal */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
             <motion.div
               className="relative w-52 h-52 md:w-72 md:h-72 mb-4 overflow-hidden"
@@ -87,12 +82,11 @@ export default function Team() {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
               />
-
-              {/* LinkedIn Logo and Hover Effects */}
               <a href="https://www.linkedin.com/in/navdeep54g3/" target="_blank" rel="noopener noreferrer">
                 <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
                   <span className="text-white text-sm text-center hidden group-hover:block">
-                  Building VALUE generating systems & Consulting Firms @HansHills | Co-Founder & CBO @GydeXP                  </span>
+                  Building VALUE generating systems & Consulting Firms @HansHills | Co-Founder & CBO @GydeXP
+                  </span>
                 </motion.div>
                 <motion.div className="absolute bottom-0 right-0 bg-[#007F40] p-2 rounded-tr-2xl rounded-bl-2xl group-hover:scale-0 transition-all duration-500 ease-in-out">
                   <FaLinkedin className="w-6 h-6 text-white" />
@@ -102,11 +96,8 @@ export default function Team() {
             <h2 className="text-lg font-semibold text-center">Navdeep Chobhiyal</h2>
             <p className="text-gray-500 text-center">Co-Founder & CBO @GydeXP</p>
           </div>
-        </div>
 
-        {/* Second row - 4 profiles */}
-        <div className="flex flex-wrap justify-center w-full gap-6 ">
-          {/* Profile 4 */}
+          {/* Profile 4 - Adarsh Gautam */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
             <motion.div
               className="relative w-52 h-52 lg:w-72 lg:h-72 mb-4 overflow-hidden"
@@ -120,8 +111,6 @@ export default function Team() {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
               />
-
-              {/* LinkedIn Logo and Hover Effects */}
               <a href="https://www.linkedin.com/in/connect-adarsh/" target="_blank" rel="noopener noreferrer">
                 <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
                   <span className="text-white text-sm text-center hidden group-hover:block">
@@ -137,7 +126,7 @@ export default function Team() {
             <p className="text-gray-500 text-center">Founder @Shardz</p>
           </div>
 
-          {/* Profile 6 */}
+          {/* Profile 5 - Krishika Aggarwal */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
             <motion.div
               className="relative w-52 h-52 md:w-72 md:h-72 mb-4 overflow-hidden"
@@ -151,12 +140,11 @@ export default function Team() {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
               />
-
-              {/* LinkedIn Logo and Hover Effects */}
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
                   <span className="text-white text-sm text-center hidden group-hover:block">
-                  I&apos;m Krishika Aggarwal, a purpose-driven human and a Fashion Communication student at the National Institute of Fashion Technology, Mumbai. I focus on creating impactful, human-centered designs and am passionate about solving real-world problems by applying my skills in innovative ways to make a meaningful difference.                  </span>
+                  I&apos;m Krishika Aggarwal, a purpose-driven human and a Fashion Communication student at the National Institute of Fashion Technology, Mumbai. I focus on creating impactful, human-centered designs and am passionate about solving real-world problems by applying my skills in innovative ways to make a meaningful&nbsp;difference.
+                  </span>
                 </motion.div>
                 <motion.div className="absolute bottom-0 right-0 bg-[#007F40] p-2 rounded-tr-2xl rounded-bl-2xl group-hover:scale-0 transition-all duration-500 ease-in-out">
                   <FaLinkedin className="w-6 h-6 text-white" />

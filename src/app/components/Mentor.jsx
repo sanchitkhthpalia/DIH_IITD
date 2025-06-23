@@ -53,7 +53,7 @@ export default function Mentor() {
             >
               <motion.img
                 src="/mentor4.jpg"
-                alt="Kush Kalra"
+                alt="Ms. Prachi Sharma"
                 className="absolute inset-0 w-full h-full object-cover"
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}

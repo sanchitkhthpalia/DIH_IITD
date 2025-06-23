@@ -91,9 +91,6 @@ const MentorshipStage = ({
         <h2 className="text-lg lg:text-3xl font-bold mb-4">✶ {title}</h2>
         <div className="space-y-2 border-l-2 border-green-400 pl-4">
           <p className="text-lg lg:text-xl">
-            <span className="font-bold">Duration:</span> {duration}
-          </p>
-          <p className="text-lg lg:text-xl">
             <span className="font-bold">Objective:</span> {objective}
           </p>
           <p className="text-lg lg:text-xl">

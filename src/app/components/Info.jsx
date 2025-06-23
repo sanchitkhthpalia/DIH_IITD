@@ -57,14 +57,14 @@ const EventInfo = () => {
         {
           icon: <FaMapMarkerAlt className="w-10 h-10" />,
           title: "Location",
-          description: "IIT Delhi/ IIT Guwahati",
+          description: "Hauz Khas Social ",
           delay: 0.5,
         },
         {
-          icon: <FaRegClock className="w-10 h-10" />,
-          title: "Time Duration",
-          description: "36 Hours + 12 hours Industry Design Sprint",
-          delay: 0.6,
+          // icon: <FaRegClock className="w-10 h-10" />,
+          // title: "Time Duration",
+          // description: "",
+          // delay: 0.6,
         },
         {
           icon: <RiTeamFill className="w-10 h-10" />,
@@ -81,7 +81,7 @@ const EventInfo = () => {
       ].map((item, index) => (
         <motion.div
           key={index}
-          className="flex items-center mb-10"
+          className="flex items-center mb-6"
           initial={{ opacity: 0, x: -100 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.5, delay: item.delay }}
@@ -145,31 +145,14 @@ const EventInfo = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
             >
               <p className="mb-5 text-justify">
-                Digital India Hack-a-thon is about coding together to solve
-                real-world problems. Students, Developers, Entrepreneurs,
-                Designers, and Idea generators will come together to build
-                amazing applications, in an effort to create a better world.
+                Digital India Hackathon is a national-level innovation challenge focused on Defence and DeepTech, designed to inspire, engage, and empower the next generation of developers, designers, and tech enthusiasts. This hackathon is a unique opportunity to build real-world, impactful solutions specifically for the Indian Armed Forces and national defence ecosystem.
               </p>
               <p className="mb-5 text-justify">
-                Integrated throughout the day will be examples of disruptive
-                ideas Pan India, many of which &rsquo;Silicon Valley comes to
-                India&apos; hasn&apos;t witnessed yet, as well as tips on
-                taking the fear out of making the leap to entrepreneurship. Some
-                leading mentors, technology experts/ trainers and advisers will
-                be on hand throughout the span of the event to answer your
-                questions on challenges you&apos;re facing. The areas we will
-                cover: your business model, revenue model, social media and
-                digital marketing strategy, selling to who and how, etc and
-                there will be plenty of networking with other start-ups.
+                Unlike conventional hackathons, we are not looking for hypothetical or purely conceptual ideas. We are seeking practical, deployable, and innovative tech solutions that can directly support defence operations, security, logistics, intelligence, surveillance, training, and more. Whether it's a mobile app for field use, a web dashboard for command operations, or a DApp to ensure secure communication — if it helps our armed forces on the ground, it belongs here.
               </p>
-              <p className="text-justify" >
-                Pre-Hack-a-thon workshop will provide relevant support to develop
-                business ideas and skills. On the 1st day, the participants will
-                receive guidance on the concept of the Ideation Model, MVP
-                (minimum viable product) and Technical Guidance. The Hack-a-thon
-                will be conducted on day 2 and 3.
+              <p className="text-justify">
+                Join us in this mission to blend technology with patriotism. Collaborate, prototype, and pitch your defence-driven innovations in front of experts, mentors, and investors. Your idea could be the next big leap in strengthening our nation's security infrastructure.
               </p>
-              {/* More content can be added here */}
             </motion.div>
           )}
 
@@ -225,7 +208,7 @@ const EventInfo = () => {
                 temples and sculptures making India a unique destination. More
                 than 50% of Indian population are under 25, filled with high
                 aspirations, unique talents waiting to be explored. India is the
-                &rsquo;Powerhouse of Technology&apos;.
+                'Powerhouse of Technology'.
               </p>
               <p className="mb-5 text-justify">
                 <strong>Vision -</strong> Our vision is to equip over 1 million Indian students
@@ -239,15 +222,15 @@ const EventInfo = () => {
               {/* More content can be added here */}
 
               <p className="text-justify" >
-                <strong>Mission -</strong> Our mission is to build the &rsquo;Digital India
-                Hack-a-thon&apos;—a multifaceted platform that operates across
+                <strong>Mission -</strong> Our mission is to build the 'Digital India
+                Hack-a-thon'—a multifaceted platform that operates across
                 web, mobile, and on-the-ground formats. This platform will serve
                 as a space for young Indians to challenge their entrepreneurial
                 abilities, put their creativity to the test, and maximize their
                 potential in real-world scenarios. Through this initiative, we
                 aim to inspire innovation and foster the development of the next
                 generation of tech-savvy professionals who will drive
-                India&apos;s digital transformation forward.
+                India's digital transformation forward.
               </p>
             </motion.div>
           )}

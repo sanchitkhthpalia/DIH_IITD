@@ -118,14 +118,14 @@ function Hero() {
           className="text-white mb-5  md:mb-14 text-lg md:text-2xl text-center max-w-5xl mx-auto"
           variants={fadeInUpVariants}
         >
-          We are hosting a 36hrs (two days-one night) Web- Mobile- Digital Media DAPP Hack-a-thon at IIT-Delhi/Guwahati designed for Blockchain (Web3)/ AI/ ML, SaaS entrepreneurs and Legal domain professionals focused in Defence, DeepTech, and Women-led enterprises.
+          We are hosting a Hybrid Web- Mobile- Digital Media DAPP Hack-a-thon at Hauz Khas Social designed for Blockchain (Web3)/ AI/ ML, SaaS entrepreneurs and Legal domain professionals focused in Defence, DeepTech, and Women-led enterprises.
         </motion.p>
         <motion.div
           className=" flex flex-col md:flex-row mb-5 space-y-4 md:space-y-0 space-x-4 items-center justify-center"
           variants={buttonVariants}
         >
           <Link
-            href="https://bit.ly/4eipzG7"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfP41BuCh8rOMrqnawlc-aEvKz7X3_HikLZVVwDDB3bYxqznA/viewform"
             target='_blank'
             className="shine-effect bg-[#007F40] hover:bg-green-700 group flex items-center hover:px-14 text-white font-bold py-3 px-8 rounded-sm text-xl transition-all duration-300 relative overflow-hidden"
           >

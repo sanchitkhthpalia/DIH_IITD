@@ -40,7 +40,7 @@ export default function Team() {
               </a>
             </motion.div>
             <h2 className="text-lg font-semibold text-center">Col. Prem Rajpurohit</h2>
-            <p className="text-gray-500 text-center">CEO @Nebula Accelerator</p>
+            <p className="text-gray-500 text-center">Founder @GSL</p>
           </div>
 
           {/* Profile 2 */}
@@ -135,36 +135,6 @@ export default function Team() {
             </motion.div>
             <h2 className="text-lg font-semibold text-center">Adarsh Gautam</h2>
             <p className="text-gray-500 text-center">Founder @Shardz</p>
-          </div>
-
-          {/* Profile 5 */}
-          <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
-            <motion.div
-              className="relative w-52 h-52 md:w-72 md:h-72 mb-4 overflow-hidden"
-              initial={{ borderRadius: "0 30% 0 30%" }}
-              whileHover={{ borderRadius: "0%", transition: { duration: 0.5, ease: "easeInOut" } }}
-            >
-              <motion.img
-                src="/kush-hover.png"
-                alt="Kush Kalra"
-                className="absolute inset-0 w-full h-full object-cover"
-                initial={{ scale: 1 }}
-                whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
-              />
-
-              {/* LinkedIn Logo and Hover Effects */}
-              <a href="https://www.linkedin.com/in/kush-kalra-12731b246/" target="_blank" rel="noopener noreferrer">
-                <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
-                  <span className="text-white text-sm text-center hidden group-hover:block">
-                  A graphic designer with a passion for creating clean, functional designs. I&apos;ve gained experience as a graphic designer during internships at Purple Parrot and Broadway Infotech, and I love blending creativity with practicality to bring ideas to life.I&apos;m Kush Kalra, a graphic designer with a passion for creating clean,                  </span>
-                </motion.div>
-                <motion.div className="absolute bottom-0 right-0 bg-[#007F40] p-2 rounded-tr-2xl rounded-bl-2xl group-hover:scale-0 transition-all duration-500 ease-in-out">
-                  <FaLinkedin className="w-6 h-6 text-white" />
-                </motion.div>
-              </a>
-            </motion.div>
-            <h2 className="text-lg font-semibold text-center">Kush Kalra</h2>
-            <p className="text-gray-500 text-center">Graphic Designer</p>
           </div>
 
           {/* Profile 6 */}

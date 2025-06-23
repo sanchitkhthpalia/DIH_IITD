@@ -11,7 +11,7 @@ export default function Mentor() {
 
       <div className="flex flex-wrap justify-center w-full gap-14 mb-8">
 
-        {/* First row - 3 profiles */}
+        {/* First row - 4 profiles */}
         <div className="flex flex-wrap justify-center w-full gap-8 ">
 
           {/* Profile 1 */}
@@ -103,12 +103,8 @@ export default function Mentor() {
             <h2 className="text-lg font-semibold text-center">Col.Tripti Arya</h2>
             {/* <p className="text-gray-500 text-center">I have been awarded "General Officer Commanding in chief commendation, Northern Command - 2021"</p> */}
           </div>
-        </div>
 
-        {/* Second row - 4 profiles */}
-        <div className="flex flex-wrap justify-center w-full gap-6 ">
-
-          {/* Profile 4 */}
+          {/* Profile 4 (moved up) */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
             <motion.div
               className="relative w-52 h-52 md:w-72 md:h-72 mb-4 overflow-hidden"
@@ -122,7 +118,6 @@ export default function Mentor() {
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
               />
-
               {/* LinkedIn Logo and Hover Effects */}
               <a href="https://www.linkedin.com/in/mukeshkestwal" target="_blank" rel="noopener noreferrer">
                 <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
@@ -136,7 +131,10 @@ export default function Mentor() {
             </motion.div>
             <h2 className="text-lg font-semibold text-center">Mukesh Kestwal</h2>
           </div>
+        </div>
 
+        {/* Second row - 3 profiles */}
+        <div className="flex flex-wrap justify-center w-full gap-6 ">
 
           {/* Profile 5 */}
           <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
